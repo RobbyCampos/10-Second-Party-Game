@@ -53,7 +53,7 @@ public class Deployer : MonoBehaviour
     private void spawnEnemy()
     {
         GameObject a = Instantiate(potPrefab) as GameObject;
-        a.transform.position = new Vector2(15, Random.Range(-2, 2));
+        a.transform.position = new Vector2(10, Random.Range(-2, 2));
     }
 
     IEnumerator potWave()
